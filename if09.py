@@ -14,4 +14,5 @@ def main(a):
     a2=a%10
     s=a1*10+a2
     return a>=s
-print(main(22))
+
+print(main(24))
