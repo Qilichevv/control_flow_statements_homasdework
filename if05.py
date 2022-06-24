@@ -16,4 +16,6 @@ def main(a,b,c):
         s+=1
     elif c<0:
         s+=0
+
+        
     return s
