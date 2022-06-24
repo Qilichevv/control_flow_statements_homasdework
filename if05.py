@@ -4,7 +4,7 @@ def main(a,b,c):
     Args:
         a: integer
         b: integer
-        
+
         c: integer
     returns:
         integer: the number of negative numbers in the given numbers
@@ -12,5 +12,8 @@ def main(a,b,c):
     s=0
     if a<0:
         s+=1
-    
-    return
+    elif b<0:
+        s+=1
+    elif c<0:
+        s+=0
+    return s
