@@ -6,13 +6,14 @@ def main(a):
     Returns:
         a: integer
     """
-    s = 0
+    s = a
     if a>0:
         s += 1
     elif a<0:
         s -= 2
-    elif a==0:
+    else: 
         s += 10
     return s
 
-print(main(-3))
+print(main(11))
+
