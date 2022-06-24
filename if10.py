@@ -27,3 +27,4 @@ def main(temp):
     if temp>40:
         s+="Very Hot"
     return s
+print(main(4))
